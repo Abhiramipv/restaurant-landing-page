@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@500;700;800&family=Lato:ital,wght@0,100;1,100&family=Noto+Sans+Mono&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500&family=Qwitcher+Grypen:wght@400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 1vh;
+}
+body{
+    background: url(https://img.freepik.com/premium-photo/colored-pasta-with-peas-vegetables-black-bowl-top-view-free-space-text_187166-16018.jpg?size=626&ext=jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+
+}
+nav .logo{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+nav span{
+    color: white;
+    margin-right: 500px;
+    font-weight: bold;
+    margin-right: 550px;
+    margin-top: 20px;
+    line-height: 10px;
+}
+nav span h3{
+    font-size: 22px;
+
+}
+nav span h6{
+    letter-spacing: 5px;
+    
+}
+nav #list{
+    margin-left: 50px;
+
+}
+nav ul li {
+    display: inline-block;
+    margin: 10PX 20PX;
+    
+    
+    
+  
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 10px;
+    
+}
+.content{
+    color: white;
+    margin-top: 180px;
+    font-size: 40px;
+    margin-left: 30px;
+}
+.content p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 700px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #c6c1c1;
+}
+button{
+    font-size: 20px;
+    color: black;
+    background-color: rgb(240, 204, 44);
+    margin-top: 30px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-weight: bold;
+}
