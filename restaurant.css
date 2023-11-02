@@ -12,21 +12,24 @@
     height: 1vh;
 }
 body{
-    background: url(https://img.freepik.com/premium-photo/colored-pasta-with-peas-vegetables-black-bowl-top-view-free-space-text_187166-16018.jpg?size=626&ext=jpg);
+    background: rgba(0,0,0,0.5)url(https://img.freepik.com/premium-photo/plate-spaghetti-with-vegetables-plate-food-with-spoon_865967-415274.jpg?size=626&ext=jpg&ga=GA1.1.1958875424.1693392617&semt=sph);
+    background-position: center center;
     background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 nav{
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-   
-    
-
 }
 nav .logo{
-    width: 40px;
-    border-radius: 50%;
+    width: 60px;
+    height: 40px;
+    border-radius: 10%;
     margin-left: 25px;
     margin-top: 15px;
 }
@@ -39,38 +42,38 @@ nav span{
     line-height: 10px;
 }
 nav span h3{
-    font-size: 22px;
+    font-size: 20px;
 
 }
 nav span h6{
     letter-spacing: 5px;
+    font-size: 10px;
+
     
 }
-nav #list{
-    margin-left: 50px;
+#list{
+    margin-left: 30px;
 
 }
 nav ul li {
     display: inline-block;
     margin: 10PX 20PX;
-    
-    
-    
-  
-    
 }
 nav ul li a{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
     margin-right: 10px;
     
 }
+nav ul li a:hover{
+    color: orange;
+}
 .content{
-    color: white;
+    color: rgb(237, 253, 189);
     margin-top: 180px;
-    font-size: 40px;
+    font-size: 38px;
     margin-left: 30px;
 }
 .content p{
@@ -79,7 +82,8 @@ nav ul li a{
     margin-right: 700px;
     margin-top: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #c6c1c1;
+    color: #e9e6e6;
+    text-align: justify;
 }
 button{
     font-size: 20px;
@@ -90,4 +94,107 @@ button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 10px;
     font-weight: bold;
+}
+.content button:hover{
+    background-color: rgb(241, 141, 11);
+    transform: translateY(-3px);
+    animation: pulse 1s infinite;
+    transition: .3s;
+}
+
+
+@media(max-width: 1160px){
+    .content p{
+        font-size: 20px;
+        line-height: 30px;
+        margin-right: 300px;
+        margin-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #e9e6e6;
+        text-align: justify;
+    }
+}
+@media(max-width: 950px){
+    .content{
+        font-size: 33px;
+    }
+    .content p{
+        margin-right: 150px;
+    }
+}
+@media(max-width: 780px){
+    nav ul li a{
+        font-size: 15px;
+    }
+    .content p{
+        margin-right: 120px;
+    } 
+}
+@media(max-width: 710px){
+    .content p{
+        margin-right: 100px;
+    } 
+}
+
+
+@media(max-width: 600px){
+body{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav span h3{
+    font-size: 20px;
+
+}
+nav span h6{
+    font-size: 16px;
+    letter-spacing: 5px;
+    
+}
+nav .logo{
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+nav span{
+    color: white;
+    font-weight: bold;
+    margin-right: 550px;
+    margin-top: 0px;
+    line-height: 10px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 5px;
+}
+nav ul li a{
+    
+    font-size: 13px;
+    margin-right: 0px;
+    
+}
+.content{
+    margin-top: 180px;
+    font-size: 29px;
+    margin-left: 30px;
+}
+.content p{
+    font-size: 20px;
+    margin-right: 80px;
+    margin-top: 30px;
+    text-align: justify;
+}
+button{
+    margin-bottom: 20%;
+}
 }
